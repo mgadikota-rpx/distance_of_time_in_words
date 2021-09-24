@@ -4,7 +4,7 @@ require 'spec_helper'
 
 describe 'A better distance_of_time_in_words' do
   if defined?(ActionView)
-    include ActionView::Helpers::DateHelper
+    include DOTIW::Methods::DateHelper
     include ActionView::Helpers::TextHelper
     include ActionView::Helpers::NumberHelper
 
